@@ -33,11 +33,11 @@ function App() {
       </form>
       <ul>
         {
-          tasks.map(item => {
+          tasks.map(item => (
             <li>{item}
               <button className='delete-button' onClick={() => deleteTask(item)}>Delete</button>
             </li>
-          })
+          ))
         }
       </ul>
     </div>
