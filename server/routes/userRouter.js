@@ -1,7 +1,9 @@
-import { compare, hash } from 'bcrypt'
-import { Router } from 'express'
-import { sign } from 'jsonwebtoken'
-import { pool } from '../helper/db.js'
+import { compare, hash } from 'bcrypt';
+import { Router } from 'express';
+import pkg from 'jsonwebtoken';
+import { pool } from '../helper/db.js';
+
+const { sign } = pkg;
 
 const router = Router()
 
