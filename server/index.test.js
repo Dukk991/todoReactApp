@@ -1,5 +1,5 @@
 import { expect } from "chai"
-import { getToken, initializeTestDb, insertTestUser } from "./helper/test"
+import { getToken, initializeTestDb, insertTestUser } from "./helper/test.js"
 
 const base_url = 'http://localhost:3001'
 
